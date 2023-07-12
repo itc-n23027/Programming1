@@ -24,9 +24,9 @@
 * 2.13 importのいろいろな書き方[問題１](CHAPTER02/Q2_13_1.py),[問題2](CHAPTER02/Q2_13_2.py)
 
 ### CHAPTER3 制御構文
-* 3.1 if文の基礎
-* 3.2 if文の応用
-* 3.3 for文の基礎
+* 3.1 if文の基礎[問題１](CHAPTER02/Q3_1_1.py),[問題2](CHAPTER02/Q3_1_2.py)
+* 3.2 if文の応用[問題１](CHAPTER02/Q3_2_1.py),[問題2](CHAPTER02/Q3_2_2.py)
+* 3.3 for文の基礎[問題１](CHAPTER02/Q3_3_1.py),[問題2](CHAPTER02/Q3_3_2.py)
 * 3.4 for文の応用
 * 3.5 while文の基礎
 * 3.6 whileを使ったプログラミング
