@@ -6,4 +6,4 @@ if a == 0:
 print(a)  # 教科書
 
 a = 0
-print((a + 1) * 2 - 1) if a == 0 else print("error")
+print((a + 1) * 2 - 1) if a == 0 else print("error")  # 短くした
