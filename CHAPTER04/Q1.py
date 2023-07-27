@@ -35,3 +35,49 @@ for e in filter(lambda i: i % 2 == 0, range(1, 11)):
 pairs = [(2, "down"), (1, "up"), (4, "charm"), (3, "strange")]
 pairs.sort(key=lambda x: x[0])
 print(pairs)
+
+
+def outer(a, b):
+    print("outer function (a, b) = ({}, {})".format(a, b))
+
+    def inner(c, d):
+        print("inner function (c, d) = ({}, {})".format(c, d))
+        return 5 * 6
+
+    return inner(a, b)
+
+
+print(outer(4, 7))
+
+
+def make_circle_area_func(pi=3.14):
+    def circle_area(radius):
+        return radius * radius * pi
+
+    return circle_area
+
+
+circle_area_default = make_circle_area_func()
+circle_area_precise = make_circle_area_func(pi=3.1415926535)
+
+type(circle_area_default), type(circle_area_precise)
+
+print(circle_area_default(2))
+print(circle_area_precise(2))
+
+
+def show_message(num=0):
+    if num == 0:
+        flag = "Red"
+        print("=== flag:", flag)
+        print("Selection is", num, "which may be the default")
+        print("====")
+    else:
+        flag = "Blue"
+        print("=== flag:", flag)
+        print("Your choise is", num)
+        print("====")
+
+
+show_message(0)
+show_message(1)
