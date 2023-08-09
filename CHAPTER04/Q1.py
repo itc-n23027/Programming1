@@ -81,3 +81,16 @@ def show_message(num=0):
 
 show_message(0)
 show_message(1)
+
+square = []
+square.append(1)
+print(square)
+
+square2 = [36, 49]
+square.extend(square2)
+print(square)
+
+square.insert(2, 7)
+print(square)
+
+
