@@ -1,4 +1,8 @@
 import random
-import string
 
-print(random.randint([chr(ord("a") + i) for i in range(26)]))
+while True:
+    name = random.choice("abcdefghijklmnopqrstuvwxyz")
+    print(name)
+
+    if name.lower() == "r":
+        break
